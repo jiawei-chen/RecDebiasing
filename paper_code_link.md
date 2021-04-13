@@ -1,6 +1,6 @@
 # paper/code link
 
-| papers | taxonomy 1 | taxonomy 2 |taxonomy 3 | Time | conference | Code |
+| papers | taxonomy 1 | taxonomy 2 | taxonomy 3 | Time | conference | Code |
 | -------- | ------- | :--- | ---- |-- |-- |-- |
 | [Collaborative filtering and the missing at random assumption](https://arxiv.org/ftp/arxiv/papers/1206/1206.5267.pdf) | Bias in data | Bias in explicit feedback data | Selection Bias |2007|UAI|[Python](https://github.com/rfenzo/ProyectoRecomendadores)|
 | [Probabilistic matrix factorization with non-random missing data](http://proceedings.mlr.press/v32/hernandez-lobatob14.pdf) | Bias in data | Bias in explicit feedback data | Selection Bias |2014|PMLR|[Python](http://jmhl.org.)|
