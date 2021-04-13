@@ -1,4 +1,4 @@
-#This repository contains the papers cited in the review papers [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) and some of their implementations .To make it easier to use, there are a few points worth noting:
+#This repository contains the papers cited in the review paper [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) and some of their implementations .To make it easier to use, there are a few points worth noting:
 
 1. The paper links are mainly from google_scholar,most of them can be downloaded directly.But a few of the links are only directed to the homepages of the papers because of their copyrights.
 
