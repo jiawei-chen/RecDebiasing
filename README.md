@@ -1,5 +1,5 @@
-# Relevant Papers/Codes on recommendation debiasing
-## Introduction of recommendation Bias  
+# Relevant Papers/Codes on Recommendation Debiasing
+## Introduction and Analyses of Bias  
 | Papers                                                       | Taxonomy 1                         | Taxonomy 2                     | Taxonomy 3      | Date | Conference                                                   | Code                                                         |
 | ------------------------------------------------------------ | ---------------------------------- | :----------------------------- | --------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Collaborative filtering and the missing at random assumption](https://arxiv.org/ftp/arxiv/papers/1206/1206.5267.pdf) | Bias in data                       | Bias in explicit feedback data | Selection Bias  | 2007 | UAI                                                          | [Python](https://github.com/rfenzo/ProyectoRecomendadores)   |
