@@ -1,3 +1,6 @@
+This website collects recent works on recommendation debiasing and their codes. We hope this website could help you do search on this topic. 
+
+If you find any missing related work or have any suggestions, please feel free to contact us (cjwustc@ustc.edu.cn). Thank you.
 # Relevant Papers/Codes on Recommendation Debiasing
 ## Introduction and Analyses of Bias  
 | Papers                                                       | Taxonomy 1                     | Taxonomy 2                     | Taxonomy 3      | Methods                                  | Date | Conference                                                   | Code                                                         |
