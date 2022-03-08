@@ -4,7 +4,7 @@
 
 # Relevant Papers/Codes on Recommendation Debiasing
 
-### More works about ***Introduction of bias*** can be found in this file: [link](https://github.com/jiawei-chen/RecDebiasing/blob/main/introduction%20of%20bias.md)
+### More works about ***Introduction of bias*** can be found in this file:
 
 ## Debiasing Strategies
 
