@@ -17,7 +17,7 @@
 | Coat      | [Recommendations as Treatments: Debiasing Learning and Evaluation](https://arxiv.org/abs/1602.05352) | [Data](https://www.cs.cornell.edu/~schnabts/mnar/)           |
 | KuaiRec   | [KuaiRec: A Fully-observed Dataset for Recommender Systems](https://arxiv.org/abs/2202.10842) | [Data](https://chongminggao.github.io/KuaiRec/)              |
 
-### More works about ***Introduction of bias*** can be found [here](https://github.com/jiawei-chen/RecDebiasing/blob/main/introduction%20of%20bias.md)
+## More works about ***Introduction of bias*** can be found [here](https://github.com/jiawei-chen/RecDebiasing/blob/main/introduction%20of%20bias.md)
 
 ## Debiasing Strategies
 
