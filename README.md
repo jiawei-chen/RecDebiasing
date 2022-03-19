@@ -1,6 +1,6 @@
-## This website collects recent works and datasets on recommendation debiasing and their codes. We hope this website could help you do search on this topic.
+# Recommendation Debiasing
 
-
+### This website collects recent works and datasets on recommendation debiasing and their codes. We hope this website could help you do search on this topic.
 
 ## Survey paper and Tutorial
 
