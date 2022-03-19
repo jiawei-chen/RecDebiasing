@@ -1,6 +1,4 @@
-### This website collects recent works and datasets on recommendation debiasing and their codes. We hope this website could help you do search on this topic.
-
-# Relevant Papers/Codes on Recommendation Debiasing
+## This website collects recent works and datasets on recommendation debiasing and their codes. We hope this website could help you do search on this topic.
 
 ### More works about ***Introduction of bias*** can be found [here](https://github.com/jiawei-chen/RecDebiasing/blob/main/introduction%20of%20bias.md)
 
