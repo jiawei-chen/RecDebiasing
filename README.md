@@ -1,5 +1,7 @@
 ## This website collects recent works and datasets on recommendation debiasing and their codes. We hope this website could help you do search on this topic.
 
+
+
 ## Survey paper and Tutorial
 
 | Type             | Paper                                                        | Conference            |
@@ -17,7 +19,7 @@
 | Coat      | [Recommendations as Treatments: Debiasing Learning and Evaluation](https://arxiv.org/abs/1602.05352) | [Data](https://www.cs.cornell.edu/~schnabts/mnar/)           |
 | KuaiRec   | [KuaiRec: A Fully-observed Dataset for Recommender Systems](https://arxiv.org/abs/2202.10842) | [Data](https://chongminggao.github.io/KuaiRec/)              |
 
-## More works about ***Introduction of bias*** can be found [here](https://github.com/jiawei-chen/RecDebiasing/blob/main/introduction%20of%20bias.md)
+## More works about ***Introduction of bias*** can be found [here](https://github.com/jiawei-chen/RecDebiasing/blob/main/Introduction%20of%20bias.md)
 
 ## Debiasing Strategies
 
@@ -206,6 +208,6 @@
 
 # Tips
 
-### We will keep updating this list, and if you find any missing related work or have any suggestions, please feel free to contact us (cjwustc@ustc.edu.cn). 
+### We will keep updating this list, and if you find any missing related work or have any suggestions, please feel free to contact us (cjwustc@ustc.edu.cn).
 
 ### If you find this repository useful to your research or work, it is really appreciate to star this repository. Thank you!
