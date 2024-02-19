@@ -145,7 +145,7 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **A Probabilistic Position Bias Model for Short-Video Recommendation Feeds**. RecSys 2023.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3604915.3608777)] [[code](https://github.com/olivierjeunen/C-3PO-recsys-2023)]
 
 1. **Unbiased Learning to Rank with Biased Continuous Feedback**. CIKM 2022.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3511808.3557483)] [[code](https://github.com/phyllist/ULTRA)]
-1. **Scalar is Not Enough: Vectorization-based Unbiased Learning to Rank**. KDD 2022.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3534678.3539468 ] [[code](https://github.com/Keytoyze/Vectorization)]
+1. **Scalar is Not Enough: Vectorization-based Unbiased Learning to Rank**. KDD 2022.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3534678.3539468)] [[code](https://github.com/Keytoyze/Vectorization)]
 1. **Doubly Robust Off-Policy Evaluation for Ranking Policies under the Cascade Behavior Model**. WSDM 2022.[[pdf](https://dl.acm.org/doi/abs/10.1145/3488560.3498380)] [[code](https://github.com/aiueola/wsdm2022-cascade-dr)]
 1. **Can Clicks Be Both Labels and Features?: Unbiased Behavior Feature Collection and Uncertainty-aware Learning to Rank**. SIGIR 2022.[[pdf](https://dl.acm.org/doi/abs/10.1145/3477495.3531948)] [[code](https://github.com/Taosheng-ty/UCBRankSIGIR2022)]
 1. **A Graph-Enhanced Click Model for Web Search**. SIGIR 2021.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3462895)] [[code](https://github.com/CHIANGEL/GraphCM)]
