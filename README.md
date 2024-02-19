@@ -7,15 +7,16 @@ This website collects recent works and datasets on recommendation debiasing and 
 * [1. Survey Papers](#1-survey-papers)
 * [2. Datasets](#2-datasets)
 * [3. Debiasing Strategies](#3-debiasing-strategies) 
-	* [3.1 Universal](#31-universal)
+	* [3.1 Multiply Biases](#31-multiply-biases)
     * [3.2 Selection Bias](#32-selection-bias)
     * [3.3 Conformity Bias](#33-conformity-bias)
     * [3.4 Exposure Bias](#34-exposure-bias)
     * [3.5 Position Bias](#35-position-bias)
     * [3.6 Popularity Bias](#36-popularity-bias)
-    * [3.7 Unfairness](#37-unfairness)
-    * [3.8 Loop Effect](#38-loop-effect)
-    * [3.9 Other Bias](#39-other-bias)
+    * [3.7 Inductive Bias](#37-inductive-bias)
+    * [3.8 Unfairness](#38-unfairness)
+    * [3.9 Loop Effect](#39-loop-effect)
+    * [3.10 Other Bias](#310-other-bias)
 
 * [Tips](#tips)
 
@@ -25,7 +26,7 @@ This website collects recent works and datasets on recommendation debiasing and 
 1. **Bias and Debias in Recommender System: A Survey and Future Directions**. TOIS 2023. [[pdf](https://arxiv.org/pdf/2010.03240.pdf)]
 2. **Bias Issues and Solutions in Recommender System**. WWW 2021,Recsys 2021. [[pdf](http://staff.ustc.edu.cn/~hexn/papers/recsys21-tutorial-bias.pdf)]
 
-### More works about ***Introduction of bias*** can be found [here](https://github.com/jiawei-chen/RecDebiasing/blob/main/Introduction%20of%20bias.md)
+2. **A survey on bias and fairness in machine learning**. Arxiv 2019. [[pdf](https://arxiv.org/pdf/1908.09635.pdf)]
 
 
 ## 2. Datasets
@@ -33,13 +34,17 @@ We collect some datasets which include unbiased data and are often used in the r
 1. **Yahoo!R3: Collaborative Prediction and Ranking with Non-Random Missing Data**. Recsys 2009. [[pdf](https://www.cs.toronto.edu/~zemel/documents/acmrec2009-MarlinZemel.pdf)][[data](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r)]
 2. **Coat: Recommendations as Treatments: Debiasing Learning and Evaluation**. ICML 2016. [[pdf](https://arxiv.org/abs/1602.05352)][[data](https://www.cs.cornell.edu/~schnabts/mnar/)]
 3. **KuaiRec: A Fully-observed Dataset for Recommender Systems**. CIKM 2022. [[pdf](https://arxiv.org/abs/2202.10842)][[data](https://chongminggao.github.io/KuaiRec/)]
+
 4. **KuaiRand: An Unbiased Sequential Recommendation Dataset
 with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.08696.pdf)][[data](https://kuairand.com/)]
 
 
 ## 3. Debiasing Strategies
 
-### 3.1 Universal 
+### 3.1 Multiply Biases 
+
+1. **Bounding System-Induced Biases in Recommender Systems with a Randomized Dataset**. TOIS 2023.[[pdf](https://dl.acm.org/doi/10.1145/3582002)] [[code](https://github.com/dgliu/TOIS_DUB)]
+
 1. **Balancing Unobserved Confounding with a Few Unbiased Ratings in Debiased Recommendations**. WWW 2023.[[pdf](https://dl.acm.org/doi/10.1145/3543507.3583495)] 
 
 1. **Transfer Learning in Collaborative Recommendation for Bias Reduction**. Recsys 2021.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3460231.3478860)] [[code](http://csse.szu.edu.cn/staff/panwk/publications/TJR/)]
@@ -60,6 +65,7 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Representation Matters When Learning From Biased Feedback in Recommendation**. CIKM 2022.[[pdf](https://dl.acm.org/doi/10.1145/3511808.3557431)] 
 1. **Hard Negatives or False Negatives: Correcting Pooling Bias in Training Neural Ranking Models**. CIKM 2022.[[pdf](https://dl.acm.org/doi/abs/10.1145/3511808.3557343)] 
 1. **Be Causal: De-biasing Social Network Confounding in Recommendation**. TKDD 2022.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3533725)] 
+
 1. **Debiased recommendation with neural stratification**. AI OPEN 2022.[[pdf](https://arxiv.org/abs/2208.07281)] 
 
 
@@ -72,9 +78,10 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Doubly robust joint learning for recommendation on data missing not at random**. ICML 2019.[[pdf](http://proceedings.mlr.press/v97/wang19n/wang19n.pdf)] 
 1. **The deconfounded recommender: A causal inference approach to recommendation**. arXiv 2018.[[pdf](https://arxiv.org/pdf/1808.06581.pdf)] 
 1. **Social recommendation with missing not at random data**. ICDM 2018.[[pdf](https://ieeexplore.ieee.org/abstract/document/8594827)] 
-1. **Recommendations as treatments: Debiasing learning and evaluation**. .[[pdf](http://proceedings.mlr.press/v48/schnabel16.pdf)] 
+
+1. **Recommendations as treatments: Debiasing learning and evaluation**. [[pdf](http://proceedings.mlr.press/v48/schnabel16.pdf)] 
 1. **Boosting Response Aware Model-Based Collaborative Filtering**. TKDE 2015.[[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7045598)] 
-1. **Probabilistic matrix factorization with non-random missing data**. JMLR 2014.[[pdf](http://proceedings.mlr.press/v32/hernandez-lobatob14.pdf)] [[code](https://jmhl.org/)]
+1. **Probabilistic matrix factorization with non-random missing data**. PMLR 2014.[[pdf](http://proceedings.mlr.press/v32/hernandez-lobatob14.pdf)] [[code](https://jmhl.org/)]
 1. **Bayesian Binomial Mixture Model for Collaborative Prediction With Non-Random Missing Data**. RecSys 2014.[[pdf](https://dl.acm.org/doi/pdf/10.1145/2645710.2645754)] 
 1. **Evaluation of recommendations: rating-prediction and ranking**. RecSys 2013.[[pdf](https://dl.acm.org/doi/pdf/10.1145/2507157.2507160)] 
 1. **Training and testing of recommender systems on data missing not at random**. KDD 2010.[[pdf](https://dl.acm.org/doi/abs/10.1145/1835804.1835895)] 
@@ -86,11 +93,15 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 
 1. **Popularity Bias Is Not Always Evil: Disentangling Benign and Harmful Bias for Recommendation**. TKDE 2022.[[pdf](https://arxiv.org/pdf/2109.07946.pdf)] 
 1. **Disentangling user interest and Conformity for recommendation with causal embedding**. WWW 2021.[[pdf](https://arxiv.org/pdf/2006.11011.pdf)] [[code](https://github.com/tsinghua-fib-lab/DICE)]
+1. **When Sheep Shop: Measuring Herding Effects in Product Ratings with Natural Experiments**. WWW 2018.[[pdf](https://arxiv.org/abs/1802.06578)] [[code](https://github.com/epfl-dlab/when_sheep_shop)]
 1. **Learning personalized preference of strong and weak ties for social recommendation**. WWW 2017.[[pdf](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?referer=https://scholar.google.com.hk/&httpsredir=1&article=4657&context=sis_research)] 
 1. **Are you influenced by others when rating?: Improve rating prediction by conformity modeling**. RecSys 2016.[[pdf](https://dl.acm.org/doi/10.1145/2959100.2959141)] 
 1. **Xgboost: A scalable tree boosting system**. KDD 2016.[[pdf](https://arxiv.org/pdf/1603.02754.pdf?__hstc=133736337.1bb630f9cde2cb5f07430159d50a3c91.1513641600097.1513641600098.1513641600099.1&__hssc=133736337.1.1513641600100&__hsfp=528229161)] [[code](https://github.com/dmlc/xgboost)]
 
 1. **A probabilistic model for using social networks in personalized item recommendation**. RecSys 2015.[[pdf](http://www.cs.columbia.edu/~blei/papers/ChaneyBleiEliassi-Rad2015.pdf)] [[code](https://github.com/ajbc/spf)]
+1. **Why amazon’s ratings might mislead you: The story of herding effects**. Big data 2014.[[pdf](https://amplab.cs.berkeley.edu/wp-content/uploads/2014/07/krishnan-recsys-v16.pdf)] 
+1. **A methodology for learning, analyzing, and mitigating social influence bias in recommender systems**. RecSys 2014.[[pdf](https://amplab.cs.berkeley.edu/wp-content/uploads/2014/07/krishnan-recsys-v16.pdf)] [[code](http://californiareportcard.org/data/)]
+
 1. **Mtrust: discerning multi-faceted trust in a connected world**. WSDM 2012.[[pdf](http://www.public.asu.edu/~huanliu/papers/wsdm12.pdf)] 
 1. **Learning to recommend with social trust ensemble**. SIGIR 2009.[[pdf](https://www.researchgate.net/profile/Michael-Lyu/publication/221299915_Learning_to_Recommend_with_Social_Trust_Ensemble/links/5461d7dd0cf27487b4530caa/Learning-to-Recommend-with-Social-Trust-Ensemble.pdf)] 
 
@@ -117,10 +128,11 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Correcting for selection bias in learning-to-rank systems**. WWW 2020.[[pdf](https://arxiv.org/pdf/2001.11358.pdf)] [[code](https://github.com/edgeslab/heckman_rank)]
 1. **Large-scale causal approaches to debiasing post-click conversion rate estimation with multi-task learning**. WWW 2020.[[pdf](https://arxiv.org/pdf/1910.09337.pdf)] 
 1. **Entire space multi-task modeling via post-click behavior decomposition for conversion rate prediction**. SIGIR 2020.[[pdf](https://arxiv.org/pdf/1910.07099.pdf)] 
-
+1. **A general knowledge distillation framework for counterfactual recommendation via uniform data**. SIGIR 2020.[[pdf](http://csse.szu.edu.cn/staff/panwk/publications/Conference-SIGIR-20-KDCRec.pdf)] [[code](https://github.com/dgliu/SIGIR20_KDCRec)]
 1. **Unbiased Implicit Recommendation and Propensity Estimation via Combinational Joint Learning**. Recsys 2020.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3383313.3412210)] [[code](https://github.com/Zziwei/Unbiased-Propensity-and-Recommendation)]
 1. **Debiasing Item-to-Item Recommendations With Small Annotated Datasets**. Recsys 2020.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3383313.3412265)] 
 1. **Reinforced negative sampling for recommendation with exposure data**. IJCAI 2019.[[pdf](https://www.ijcai.org/Proceedings/2019/0309.pdf)] [[code](https://github.com/dingjingtao/ReinforceNS)]
+
 1. **Samwalker: Social recommendation with informative sampling strategy**. WWW 2019.[[pdf](https://jiawei-chen.github.io/paper/SamWalker.pdf)] [[code](https://github.com/jiawei-chen/Samwalker)]
 1. **Collaborative filtering with social exposure: A modular approach to social recommendation**. AAAI 2018.[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/11835)] [[code](https://github.com/99731/SERec)]
 1. **An improved sampler for bayesian personalized ranking by leveraging view data**. WWW 2018.[[pdf](http://staff.ustc.edu.cn/~hexn/papers/www18-improvedBPR.pdf)] 
@@ -157,11 +169,16 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Cascade model-based propensity estimation for counterfactual learning to rank**. SIGIR 2020.[[pdf](https://arxiv.org/pdf/2005.11938.pdf))] [[code](https://github.com/AliVard/CM-IPS-SIGIR20)]
 1. **Addressing Trust Bias for Unbiased Learning-to-Rank**. WWW 2019.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3308558.3313697)] 
 1. **Position bias estimation for unbiased learning to rank in personal search**. WSDM 2018.[[pdf](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/3bace79f9bcead0b20dec31e2a0878346ad2fb0d.pdf)] 
+
+
+1. **A study of position bias in digital library recommender systems**. ArXiv 2018.[[pdf](https://arxiv.org/ftp/arxiv/papers/1802/1802.06565.pdf)] 
+
 1. **Offline Evaluation of Ranking Policies with Click Models**. KDD 2018.[[pdf](https://dl.acm.org/doi/abs/10.1145/3219819.3220028)] 
 1. **Unbiased learning to rank with unbiased propensity estimation**. SIGIR 2018.[[pdf](https://arxiv.org/pdf/1804.05938.pdf)] [[code](https://github.com/QingyaoAi/Dual-Learning-Algorithm-for-Unbiased-Learning-to-Rank)]
 1. **Unbiased learning-to-rank with biased feedback**.  WSDM 2017.[[pdf](https://arxiv.org/pdf/1608.04468.pdf)] [[code](https://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html)]
 1. **Multileave gradient descent for fast online learning to rank**. WSDM 2016.[[pdf](https://ilps.science.uva.nl/wp-content/uploads/sites/8/2015/11/DIR2015-proceedings.pdf#page=14)] 
 1. **Learning to rank with selection bias in personal search**. SIGIR 2016.[[pdf](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45286.pdf)] 
+1. **Accurately interpreting clickthrough data as implicit feedback**. SIGIR 2016.[[pdf](http://www.sigir.org/wp-content/uploads/2017/06/p004.pdf)] 
 1. **Batch learning from logged bandit feedback through counterfactual risk minimization**. JMLR 2015.[[pdf](https://www.jmlr.org/papers/volume16/swaminathan15a/swaminathan15a.pdf)] 
 1. **Learning socially optimal information systems from egoistic users**. ECML PKDD 2013.[[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-40991-2_9.pdf)] 
 1. **Reusing historical interaction data for faster online learning to rank for ir**. WSDM 2013.[[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.408.196&rep=rep1&type=pdf)] [[code](https://ilps.science.uva.nl/resources/online-learning-framework)]
@@ -172,6 +189,8 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **An experimental comparison of click position-bias models**. WSDM 2008.[[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.1288&rep=rep1&type=pdf)] 
 1. **Comparing click logs and editorial labels for training query rewriting**. WWW 2007.[[pdf](https://www2007.org/workshops/paper_63.pdf)] 
 
+1. **Evaluating the accuracy of implicit feedback from clicks and query reformulations in web search**. ACM Journals 2007.[[pdf](http://sing.stanford.edu/cs303-sp10/papers/joachims_etal_07a.pdf)] 
+1. **Modeling result-list searching in the world wide web: The role of relevance topologies and trust bias**. CogSci 2006.[[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.98.516&rep=rep1&type=pdf)] 
 
 
 ### 3.6 Popularity Bias
@@ -200,17 +219,40 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Deconfounded Recommendation for Alleviating Bias Amplification**. KDD 2021.[[pdf](https://arxiv.org/pdf/2105.10648.pdf)] [[code](https://github.com/WenjieWWJ/DecRS)]
 1. **Popularity Bias Is Not Always Evil: Disentangling Benign and Harmful Bias for Recommendation**. Arxiv 2021/TKDE 2022.[[pdf](https://arxiv.org/pdf/2109.07946.pdf)]
 1. **Model-agnostic counterfactual reasoning for eliminating popularity bias in recommender system**. KDD 2021.[[pdf](https://arxiv.org/pdf/2010.15363.pdf)] [[code](https://github.com/weitianxin/MACR)]
+
+1. **Popularity-Opportunity Bias in Collaborative Filtering**. WSDM 2021.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3437963.3441820)]
+
+
+1. **Multi-sided exposure bias in recommendation**. Arxiv 2020.[[pdf](https://arxiv.org/pdf/2006.15772.pdf)]
+
+1. **The Connection Between Popularity Bias, Calibration, and Fairness in Recommendation**. RecSys 2020.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3383313.3418487)]
+
 1. **ESAM: discriminative domain adaptation with non-displayed items to improve long-tail performance**. SIGIR 2020.[[pdf](https://arxiv.org/pdf/2005.10545.pdf)] [[code](https://github.com/A-bone1/ESAM.git)]
 1. **Unbiased offline recommender evaluation for missing-not-at-random implicit feedback**. RecSys 2018.[[pdf](https://vision.cornell.edu/se3/wp-content/uploads/2018/08/recsys18_unbiased_eval.pdf)] [[code](https://github.com/ylongqi/unbiased-offline-recommender-evaluation)]
 1. **An adversarial approach to improve long-tail performance in neural collaborative filtering**. CIKM 2018.[[pdf](http://aditk2.web.engr.illinois.edu/reports/sp0781.pdf)] 
+
+1. **A Probabilistic Reformulation of Memory-Based Collaborative Filtering – Implications on Popularity Biases**. SIGIR 2017[[pdf](https://dl.acm.org/doi/pdf/10.1145/3077136.3080836)] 
+
 1. **Controlling popularity bias in learning-to-rank recommendation**. RecSys 2017.[[pdf](https://www.researchgate.net/profile/Himan-Abdollahpouri/publication/318351355_Controlling_Popularity_Bias_in_Learning-to-Rank_Recommendation/links/5a1375450f7e9b1e573086d6/Controlling-Popularity-Bias-in-Learning-to-Rank-Recommendation.pdf)] 
 1. **Incorporating diversity in a learning to rank recommender system**. FLAIRS 2016.[[pdf](https://aaai.org/papers/572-flairs-2016-12944/)] 
+1. **What recommenders recommend: an analysis of recommendation biases and possible countermeasures**. UMUAI 2015.[[pdf](https://link.springer.com/article/10.1007/s11257-015-9165-3)] 
 1. **The limits of popularity-based recommendations, and the role of social ties**. KDD 2016.[[pdf](https://arxiv.org/pdf/1607.04263.pdf)] [[code](https://github.com/Steven--/recommender)]
 1. **Correcting popularity bias by enhancing recommendation neutrality**. RecSys 2014.[[pdf](https://www.kamishima.net/archive/2014-po-recsys-print.pdf)] 
 1. **Efficiency improvement of neutrality-enhanced recommendation**. RecSys 2013.[[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.402.6889&rep=rep1&type=pdf#page=5)] [[code](http://www.kamishima.net/inrs/)]
 
+### 3.7 Inductive Bias
+1. **Discrete content-aware matrix factorization**. KDD 2017.[[pdf](https://zheng-kai.com/paper/kdd_2017_lian.pdf)] 
+1. **Neural collaborative filtering**. WWWW 2017.[[pdf](https://arxiv.org/pdf/1708.05031.pdf?source=post_page---------------------------)] [[code](https://github.com/hexiangnan/neural_collaborative_filtering)]
+1. **Discrete collaborative filtering**. SIGIR 2016.[[pdf](http://staff.ustc.edu.cn/~hexn/papers/sigir16-dcf-cm.pdf)]
+1. **Logistic matrix factorization for implicit feedback data**. NIPS 2014.[[pdf](http://web.stanford.edu/~rezab/nips2014workshop/submits/logmat.pdf)]
 
-### 3.7 Unfairness
+1. **Learning binary codes for collaborative filtering**. KDD 2012.[[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.906.4707&rep=rep1&type=pdf)]
+
+
+
+
+
+### 3.8 Unfairness
 
 1. **Providing Previously Unseen Users Fair Recommendations Using Variational Autoencoders**. RecSys 2023.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3604915.3608842)] [[code](https://github.com/BjornarVass/fair-vae-rec)]
 1. **Path-Specific Counterfactual Fairness for Recommender Systems**. KDD 2023.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3580305.3599462)] [[code](https://github.com/yaochenzhu/PSF-VAE)]
@@ -236,8 +278,13 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Comprehensive Fair Meta-learned Recommender System**. KDD 2022.[[pdf](https://arxiv.org/abs/2206.04789)] [[code](https://github.com/weitianxin/CLOVER)]
 1. **Fair Ranking as Fair Division: Impact-Based Individual Fairness in Ranking**. KDD 2022.[[pdf](https://arxiv.org/abs/2206.07247)] [[code](https://github.com/usaito/kdd2022-fair-ranking-nsw)]
 1. **Fair Representation Learning: An Alternative to Mutual Information**. KDD 2022.[[pdf](https://dl.acm.org/doi/abs/10.1145/3534678.3539302)] [[code](https://github.com/SoftWiser-group/FairDisCo)]
+
 1. **Leave No User Behind: Towards Improving the Utility of Recommender Systems for Non-mainstream Users**. WSDM 2021.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3437963.3441769)] [[code](https://github.com/roger-zhe-li/wsdm21-mainstream)]
+
+1. **User Bias in Beyond-Accuracy Measurement of Recommendation Algorithms**. RecSys 2021.[[pdf](http://www.comp.hkbu.edu.hk/~lichen/download/Ningxia_RecSys21.pdf)] 
+
 1. **User-oriented Fairness in Recommendation**. WWW2021.[[pdf](https://arxiv.org/pdf/2104.10671.pdf)] [[code](https://github.com/rutgerswiselab/user-fairness)]
+
 1. **Policy-Gradient Training of Fair and Unbiased Ranking Functions**. SIGIR 2021.[[pdf](https://arxiv.org/pdf/1911.08054.pdf)] [[code](https://github.com/him229/fultr)]
 1. **Towards Long-term Fairness in Recommendation**. WSDM 2021.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3437963.3441824)] [[code](https://github.com/TobyGE/FCPO)]
 1. **Towards Personalized Fairness based on Causal Notion**. SIGIR 2021.[[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3462966)] 
@@ -254,6 +301,11 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Fairness-aware ranking in search & recommendation systems with application to linkedin talent search**. KDD 2019.[[pdf](https://arxiv.org/pdf/1905.01989.pdf)] 
 1. **Counterfactual fairness: Unidentification  bound and algorithm**. IJCAI 2019.[[pdf](https://par.nsf.gov/servlets/purl/10126321)] 
 1. **Privacy-aware recommendation with private-attribute protection using adversarial learning**. WSDM 2019.[[pdf](https://arxiv.org/pdf/1911.09872.pdf)] 
+
+1. **Algorithmic bias? an empirical study of apparent gender-based discrimination in the display of stem career ads**. INFORMS 2019.[[pdf](https://lbsresearch.london.edu/id/eprint/967/1/AlgorithmicBias_Mar2018.pdf)] 
+
+1. **Crank up the volume: preference bias amplification in collaborative recommendation**. RecSys 2019.[[pdf](https://arxiv.org/pdf/1909.06362.pdf)] 
+
 1. **Policy Learning for Fairness in Ranking**. NIPS 2019.[[pdf](https://proceedings.neurips.cc/paper/2019/file/9e82757e9a1c12cb710ad680db11f6f1-Paper.pdf)] [[code](https://github.com/ashudeep/Fair-PGRank)]
 1. **Fairness of exposure in rankings**. KDD 2018.[[pdf](https://arxiv.org/pdf/1802.07281.pdf)] 
 1. **Fairness-aware tensor-based recommendation**. CIKM 2018.[[pdf](https://par.nsf.gov/servlets/purl/10098220)] [[code](https://github.com/Zziwei/Fairness-Aware_Tensor-Based_Recommendation)]
@@ -261,6 +313,13 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **On discrimination discovery and removal in ranked data using causal graph**. KDD 2018.[[pdf](https://arxiv.org/pdf/1803.01901.pdf)] 
 1. **A fairness-aware hybrid recommender system**. FATREC 2018.[[pdf](https://arxiv.org/pdf/1809.09030.pdf)] 
 1. **Fair inference on outcomes**. AAAI 2018.[[pdf](https://ojs.aaai.org/index.php/AAAI/article/download/11553/11412)] [[code](https://github.com/raziehna/fair-inference-on-outcomes)]
+
+1. **Exploring author gender in book rating and recommendation**. RecSys 2018.[[pdf](https://arxiv.org/pdf/1808.07586.pdf)] [[code](https://github.com/BoiseState/bookdata-tools)]
+
+
+1. **Homophily influences ranking of minorities in social networks**. Scientific Reports 2018.[[pdf](https://www.nature.com/articles/s41598-018-29405-7.pdf)] 
+1. **Algorithmic glass ceiling in social networks: The effects of social recommendations on network diversity**. WWW 2018.[[pdf](http://www.columbia.edu/~as5001/algglassceiling.pdf)] 
+
 1. **Equity of attention: Amortizing individual fairness in rankings**. SIGIR 2018.[[pdf](https://arxiv.org/pdf/1805.01788.pdf)] 
 1. **Fa*ir: A fair top-k ranking algorithm**. CIKM 2017.[[pdf](https://arxiv.org/pdf/1706.06368.pdf)] [[code](https://github.com/MilkaLichtblau/FA-IR_Ranking)]
 1. **Beyond parity: Fairness objectives for collaborative filtering**. NIPS 2017.[[pdf](https://arxiv.org/pdf/1705.08804.pdf)] 
@@ -272,22 +331,30 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Counterfactual fairness**. arXiv 2017.[[pdf](https://arxiv.org/pdf/1703.06856.pdf)] [[code](https://github.com/Kaaii/CS7290_Fairness_Eval_Project)]
 1. **Censoring representations with an adversary**. ICLR 2016.[[pdf](https://arxiv.org/pdf/1511.05897.pdf)] 
 1. **Model-based approaches for independence-enhanced recommendation**. IEEE 2016.[[pdf](https://www.kamishima.net/archive/2016-ws-icdm-print.pdf)] [[code](http://www.kamishima.net/iers/)]
+
+1. **Automated experiments on ad privacy settings: A tale of opacity, choice, and discrimination**. Arxiv 2015.[[pdf](https://arxiv.org/pdf/1408.6491.pdf)] [[code](http://www.cs.cmu.edu/~mtschant/ife/)]
+
 1. **Efficiency improvement of neutrality-enhanced recommendation.**. RecSys 2013.[[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.402.6889&rep=rep1&type=pdf#page=5)] [[code](http://www.kamishima.net/inrs/)]
 1. **Learning fair representations**. JMLR 2013.[[pdf](http://proceedings.mlr.press/v28/zemel13.pdf)] 
 1. **Enhancement of the neutrality in recommendation**. RecSys 2012.[[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.416.1022&rep=rep1&type=pdf#page=12)] 
 1. **Discrimination-aware data mining**. KDD 2008.[[pdf](https://dl.acm.org/doi/abs/10.1145/1401890.1401959)] 
+1. **Bias in computer systems**. TOIS 1996.[[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.17.6776&rep=rep1&type=pdf)] 
 
-
-### 3.8 Loop Effect
-
+### 3.9 Loop Effect
 
 1. **Toward Pareto Efficient Fairness-Utility Trade-off inRecommendation through Reinforcement Learning**. WSDM 2022.[[pdf](https://arxiv.org/abs/2201.00140)] 
-1. **AutoDebias: Learning to Debias for Recommendation**. .[[pdf](https://arxiv.org/pdf/2105.04170.pdf)] [[code](https://github.com/DongHande/AutoDebias)]
+1. **AutoDebias: Learning to Debias for Recommendation**. SIGIR 2021.[[pdf](https://arxiv.org/pdf/2105.04170.pdf)] [[code](https://github.com/DongHande/AutoDebias)]
 1. **A general knowledge distillation framework for counterfactual recommendation via uniform data**. SIGIR 2020.[[pdf](http://csse.szu.edu.cn/staff/panwk/publications/Conference-SIGIR-20-KDCRec.pdf)] [[code](https://github.com/dgliu/SIGIR20_KDCRec)]
 1. **Influence function for unbiased recommendation**. SIGIR 2020.[[pdf](https://dl.acm.org/doi/abs/10.1145/3397271.3401321)] 
+1. **Understanding echo chambers in e-commerce recommender systems**. SIGIR 2020.[[pdf](https://arxiv.org/pdf/2007.02474.pdf)] [[code](https://github.com/szhaofelicia/EchoChamberInEcommerce)]
+
+
 1. **Jointly learning to recommend and advertise**. KDD 2020.[[pdf](https://arxiv.org/pdf/2003.00097.pdf)] 
 1. **Counterfactual evaluation of slate recommendations with sequential reward interactions**. KDD 2020.[[pdf](https://arxiv.org/pdf/2007.12986.pdf)] [[code](https://github.com/spotify-research/RIPS_KDD2020)]
 1. **Joint policy value learning for recommendation**. KDD 2020.[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenKDD2020.pdf)] [[code](https://github.com/olivierjeunen/dual-bandit-kdd-2020)]
+
+1. **Feedback loop and bias amplification in recommender systems**. CIKM 2020.[[pdf](https://arxiv.org/pdf/2007.13019.pdf)] 
+
 1. **Degenerate feedback loops in recommender systems**. AIES 2019.[[pdf](https://arxiv.org/pdf/1902.10730.pdf)] 
 1. **When people change their mind: Off-policy evaluation in non-stationary recommendation environments**. WSDM 2019.[[pdf](https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/jagerman-when-2019.pdf)] [[code](https://github.com/rjagerman/wsdm2019-nonstationary)]
 1. **Top-k off-policy correction for a reinforce recommender system**. WSDM 2019.[[pdf](https://arxiv.org/pdf/1812.02353.pdf)] [[code](https://github.com/massquantity/DBRL)]
@@ -295,6 +362,8 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Large-scale interactive recommendation with tree-structured policy gradient**. AAAI 2019.[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/4204)] [[code](https://github.com/chenhaokun/TPGR)]
 1. **Deep reinforcement learning for list-wise recommendations**. KDD 2019.[[pdf](https://arxiv.org/pdf/1801.00209.pdf)] [[code](https://github.com/egipcy/LIRD)]
 1. **Causal embeddings for recommendation**. RecSys 2018.[[pdf](https://arxiv.org/pdf/1706.07639.pdf)] [[code](https://github.com/criteo-research/CausE)]
+1. **How algorithmic confounding in recommendation systems increases homogeneity and decreases utility**. RecSys 2018.[[pdf](https://arxiv.org/pdf/1710.11214.pdf)]
+
 1. **Stabilizing reinforcement learning in dynamic environment with application to online recommendation**. KDD 2018.[[pdf](https://www.researchgate.net/profile/Qing-Da/publication/324988927_Stablizing_Reinforcement_Learning_in_Dynamic_Environment_with_Application_to_Online_Recommendation/links/5b2b4321aca27209f3797d65/Stablizing-Reinforcement-Learning-in-Dynamic-Environment-with-Application-to-Online-Recommendation.pdf)] 
 1. **Recommendations with negative feedback via pairwise deep reinforcement learning**. KDD 2018.[[pdf](https://arxiv.org/pdf/1802.06501.pdf)] 
 1. **Drn: A deep reinforcement learning framework for news recommendation**. WWW 2018.[[pdf](http://personal.psu.edu/~gjz5038/paper/www2018_reinforceRec/www2018_reinforceRec.pdf)] 
@@ -303,36 +372,24 @@ with Randomly Exposed Videos**. CIKM 2022.[[pdf](https://arxiv.org/pdf/2208.0869
 1. **Interactive social recommendation**. CIKM 2017.[[pdf](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4975&context=sis_research)] 
 1. **Off-policy evaluation for slate recommendation**. NIPS 2017.[[pdf](https://arxiv.org/pdf/1605.04812.pdf)] [[code](https://github.com/adith387/slates_semisynth_expts)]
 1. **Factorization bandits for interactive recommendation**. WWW 2016.[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/10936)] 
-1. **Deconvolving feedbackloops in recommender systems**. NIPS 2016.[[pdf](https://arxiv.org/pdf/1703.01049.pdf)] 
+1. **Deconvolving feedbackloops in recommender systems**. NIPS 2016.[[pdf](https://arxiv.org/pdf/1703.01049.pdf)]
+
 1. **Interactive collaborative filtering**. CIKM 2013.[[pdf](https://discovery.ucl.ac.uk/id/eprint/1401363/1/ir0422-zhao_ucl.pdf)] [[code](https://github.com/h324yang/interactiveCF)]
 1. **A contextual-bandit approach to personalized news article recommendation**. WWW 2010.[[pdf](https://arxiv.org/pdf/1003.0146.pdf)] [[code](https://github.com/akhadangi/Multi-armed-Bandits)]
 
 
 
-### 3.9 Other Bias
+### 3.10 Other Bias
 
-
-
-#### 3.9.1 Attention Bias
 1. **Counteracting User Attention Bias in Music Streaming Recommendation via Reward Modification**. KDD 2022.[[pdf](https://dl.acm.org/doi/abs/10.1145/3534678.3539393)] 
 
-
-#### 3.9.2 Duration Bias
 1. **Deconfounding Duration Bias inWatch-time Prediction for Video Recommendation**. KDD 2022.[[pdf](https://arxiv.org/abs/2206.06003)] [[code](https://github.com/MorganSQ/Ks-D2Q)]
 
-
-#### 3.9.3 Sentiment Bias
 
 1. **Causal Intervention for Sentiment De-biasing in Recommendation**. CIKM 2022.[[pdf](https://dl.acm.org/doi/10.1145/3511808.3557558)] 
 1. **Mitigating Sentiment Bias for Recommender Systems**. SIGIR 2021.[[pdf](https://dl.acm.org/doi/10.1145/3404835.3462943)] 
 
-#### 3.9.4 Multiply Bias
-
-1. **Bounding System-Induced Biases in Recommender Systems with a Randomized Dataset**. TOIS 2023.[[pdf](https://dl.acm.org/doi/10.1145/3582002)] [[code](https://github.com/dgliu/TOIS_DUB)]
-
-#### 3.9.5 Other Bias
 1. **Debiasing Learning based Cross-domain Recommendation**. KDD 2021.[[pdf](https://dl.acm.org/doi/10.1145/3447548.3467067)] 
-
 
 
 
